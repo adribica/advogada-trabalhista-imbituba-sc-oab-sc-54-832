@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Araújo Advocacia | Defesa Jurídica Estratégica em Tubarão/SC</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,300;1,6..72,400;1,6..72,500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface": "#f9f9f9",
+                      "secondary-fixed-dim": "#d2d4da",
+                      "background": "#f9f9f9",
+                      "on-background": "#2d3435",
+                      "inverse-primary": "#ffffff",
+                      "tertiary-dim": "#525353",
+                      "surface-container-high": "#e4e9ea",
+                      "on-secondary-fixed-variant": "#585c60",
+                      "on-primary-container": "#525252",
+                      "on-error": "#fff7f6",
+                      "primary-container": "#e2e2e2",
+                      "error-dim": "#4e0309",
+                      "on-primary": "#f8f8f8",
+                      "on-surface": "#2d3435",
+                      "inverse-on-surface": "#9c9d9d",
+                      "secondary-dim": "#505358",
+                      "primary": "#5e5e5e",
+                      "outline": "#757c7d",
+                      "on-secondary": "#f7f9fe",
+                      "on-error-container": "#752121",
+                      "tertiary-fixed": "#f4f3f3",
+                      "surface-container": "#ebeeef",
+                      "secondary": "#5c5f64",
+                      "on-primary-fixed-variant": "#5b5b5b",
+                      "inverse-surface": "#0c0f0f",
+                      "surface-dim": "#d3dbdd",
+                      "error-container": "#fe8983",
+                      "primary-fixed-dim": "#d4d4d4",
+                      "on-tertiary-fixed-variant": "#656666",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary-container": "#e0e2e8",
+                      "surface-container-highest": "#dde4e5",
+                      "on-secondary-fixed": "#3c4044",
+                      "tertiary": "#5e5f5f",
+                      "error": "#9f403d",
+                      "surface-variant": "#dde4e5",
+                      "surface-bright": "#f9f9f9",
+                      "on-tertiary-container": "#5b5c5c",
+                      "on-tertiary-fixed": "#484a4a",
+                      "on-primary-fixed": "#3f3f3f",
+                      "on-tertiary": "#f9f9f9",
+                      "primary-fixed": "#e2e2e2",
+                      "tertiary-container": "#f4f3f3",
+                      "secondary-fixed": "#e0e2e8",
+                      "surface-container-low": "#f2f4f4",
+                      "surface-tint": "#5e5e5e",
+                      "tertiary-fixed-dim": "#e6e5e5",
+                      "on-surface-variant": "#596061",
+                      "outline-variant": "#acb3b4",
+                      "on-secondary-container": "#4f5256",
+                      "primary-dim": "#525252"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {},
+              "fontFamily": {
+                      "headline": [
+                              "Newsreader", "serif"
+                      ],
+                      "body": [
+                              "Manrope", "sans-serif"
+                      ],
+                      "label": [
+                              "Manrope", "sans-serif"
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 300,
+          'GRAD' 0,
+          'opsz' 24
+        }
+        .fill-icon {
+            font-variation-settings: 'FILL' 1;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(172, 179, 180, 0.2);
+        }
+        .glass-dark {
+            background: rgba(12, 15, 15, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .metallic-gradient {
+            background: linear-gradient(135deg, #e2e2e2 0%, #d4d4d4 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body font-light antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="w-full top-0 sticky z-50 bg-[#0c0f0f] text-[#5e5e5e] font-['Newsreader'] italic text-lg tracking-tight shadow-sm" style="border-bottom: 1px solid rgba(94, 94, 94, 0.1);">
+<div class="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
+<div class="font-['Newsreader'] text-2xl font-bold tracking-tighter text-white">
+                Araújo Advocacia
+            </div>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="text-white border-b border-[#5e5e5e] pb-1 transition-colors duration-300" href="#specialties">Áreas de Atuação</a>
+<a class="text-[#f9f9f9]/70 hover:text-white hover:transition-colors duration-300" href="#expertise">Especialidade</a>
+<a class="text-[#f9f9f9]/70 hover:text-white hover:transition-colors duration-300" href="#team">Corpo Jurídico</a>
+<a class="text-[#f9f9f9]/70 hover:text-white hover:transition-colors duration-300" href="#insights">Artigos</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-xl font-body font-light not-italic text-sm tracking-wide border border-outline-variant/20 hover:bg-primary-dim transition-colors scale-95 hover:scale-100 duration-200">
+                Consulta
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative min-h-[921px] bg-inverse-surface flex items-center overflow-hidden">
+<!-- Background Image with Dark Overlay -->
+<div class="absolute inset-0 z-0">
+<img alt="Abstract architectural detail of modern courthouse building, sharp lines, slate and concrete textures, monochromatic high contrast." class="w-full h-full object-cover opacity-30 grayscale mix-blend-luminosity" data-alt="Abstract architectural detail of modern courthouse building, sharp lines, slate and concrete textures, monochromatic high contrast." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNd6ko-mVh6nslr2S7oSQDNzcnqoJVPBa9Gx0NCzi_CH51jwuc1bp8QZgjrFsaWjRMtXy5RqnhIqZMrJuOK5pX77-vZlkTqLbMS8RW-Tg9-Ge8gfdltUaxYdWF4C1MVqaGX_fLM1GGW_YaVGWhuyuo6JyfITmAeafGDRS3zaj2XahvBjjJb5zHWXfJnoG2Whje-DQhrmFA59T8ZQYbmbLF5yr550whSfVE1NRYYPhBIkPQvaLJzyup7y1RhgfYPJtUqlE2ZQAI46E"/>
+<div class="absolute inset-0 bg-gradient-to-r from-inverse-surface via-inverse-surface/90 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-screen-2xl mx-auto px-12 w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="max-w-2xl">
+<span class="font-body text-outline-variant text-xs uppercase tracking-[0.2em] mb-6 block">Escritório Boutique</span>
+<h1 class="font-headline text-5xl md:text-7xl font-light text-inverse-primary leading-[1.1] tracking-tight mb-8">
+                    Defesa Jurídica Estratégica e Especializada em Tubarão/SC
+                </h1>
+<p class="font-body text-inverse-on-surface text-lg md:text-xl font-light mb-12 max-w-xl leading-relaxed">
+                    Atuação técnica e artesanal na resolução de conflitos complexos. Protegendo patrimônio, liberdade e legado com precisão implacável.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="metallic-gradient text-on-surface px-8 py-4 rounded-xl font-body font-light tracking-wide border border-outline-variant/50 hover:opacity-90 transition-opacity">
+                        Agendar Consulta
+                    </button>
+<button class="bg-transparent text-inverse-primary px-8 py-4 rounded-xl font-body font-light tracking-wide border border-outline-variant/30 hover:bg-surface-container-highest/10 transition-colors">
+                        Nossas Áreas
+                    </button>
+</div>
+</div>
+<div class="hidden lg:block h-[600px] w-full relative" id="spline-hero">
+<!-- Spline 3D Container Placeholder -->
+<div class="absolute inset-0 rounded-xl border border-outline-variant/10 glass-dark flex items-center justify-center overflow-hidden">
+<img alt="Minimalist silver scales of justice sitting on polished dark marble desk, soft directional light, premium corporate legal setting." class="w-full h-full object-cover opacity-50 mix-blend-overlay grayscale" data-alt="Minimalist silver scales of justice sitting on polished dark marble desk, soft directional light, premium corporate legal setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuy_-TKNw-_rlFaTYQvsrqf6ElUy887c8SX_8QsK2NSZ-WsT1nLBu_izp7niR6JKdOcrnrBqodUmJvv5mb975AbpTsYyZgHrgNMUUfqhEwLkdcdiO9iqiY3Y3AqrBociC8RFVoztNYWljJcTvRN9Fl0b1i_wlywAyGpHlHLCvrj-r665zHoey_r8EuMP_M5PX0cUA1JXvfbKeSQ3SrpK4-lpIBBCBbHBRB8vV8aecL-FoSc2aUgYmUIsg5Mwo5piFYnl5YGc0lO0g"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Bar -->
+<section class="bg-surface-container-lowest py-16 border-b border-outline-variant/10 relative z-20">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 divide-y md:divide-y-0 md:divide-x divide-outline-variant/20 text-center">
+<div class="flex flex-col items-center pt-8 md:pt-0">
+<span class="font-headline text-5xl text-primary font-light mb-2">+15</span>
+<span class="font-body font-light text-on-surface-variant text-sm uppercase tracking-widest">Anos de Experiência</span>
+</div>
+<div class="flex flex-col items-center pt-8 md:pt-0">
+<span class="font-headline text-5xl text-primary font-light mb-2">2.5k</span>
+<span class="font-body font-light text-on-surface-variant text-sm uppercase tracking-widest">Casos de Sucesso</span>
+</div>
+<div class="flex flex-col items-center pt-8 md:pt-0">
+<span class="font-headline text-5xl text-primary font-light mb-2">BR</span>
+<span class="font-body font-light text-on-surface-variant text-sm uppercase tracking-widest">Atendimento Nacional</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Specialties Grid -->
+<section class="py-32 bg-surface-container-low" id="specialties">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="mb-20 max-w-3xl">
+<h2 class="font-headline font-light text-4xl md:text-5xl text-on-surface tracking-tight mb-6">Expertise Jurídica</h2>
+<p class="font-body font-light text-on-surface-variant text-lg">Atuação focada e especializada nas áreas mais críticas do direito, garantindo soluções robustas para cenários complexos.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 border border-outline-variant/20 hover:border-primary/50 transition-colors group">
+<span class="material-symbols-outlined text-3xl text-primary mb-6 block group-hover:scale-110 transition-transform">gavel</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-4">Trabalhista</h3>
+<p class="font-body font-light text-on-surface-variant text-sm leading-relaxed mb-6">Defesa especializada em litígios complexos das relações de trabalho.</p>
+<a class="font-body font-light text-xs uppercase tracking-widest text-primary border-b border-transparent group-hover:border-primary transition-colors pb-1 inline-flex items-center" href="#">Explorar <span class="material-symbols-outlined text-[1rem] ml-1">arrow_forward</span></a>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 border border-outline-variant/20 hover:border-primary/50 transition-colors group">
+<span class="material-symbols-outlined text-3xl text-primary mb-6 block group-hover:scale-110 transition-transform">balance</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-4">Penal - Júri</h3>
+<p class="font-body font-light text-on-surface-variant text-sm leading-relaxed mb-6">Atuação combativa no Tribunal do Júri e defesas criminais estratégicas.</p>
+<a class="font-body font-light text-xs uppercase tracking-widest text-primary border-b border-transparent group-hover:border-primary transition-colors pb-1 inline-flex items-center" href="#">Explorar <span class="material-symbols-outlined text-[1rem] ml-1">arrow_forward</span></a>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 border border-outline-variant/20 hover:border-primary/50 transition-colors group">
+<span class="material-symbols-outlined text-3xl text-primary mb-6 block group-hover:scale-110 transition-transform">family_restroom</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-4">Família</h3>
+<p class="font-body font-light text-on-surface-variant text-sm leading-relaxed mb-6">Tratamento sigiloso e técnico em divórcios, sucessões e inventários.</p>
+<a class="font-body font-light text-xs uppercase tracking-widest text-primary border-b border-transparent group-hover:border-primary transition-colors pb-1 inline-flex items-center" href="#">Explorar <span class="material-symbols-outlined text-[1rem] ml-1">arrow_forward</span></a>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 border border-outline-variant/20 hover:border-primary/50 transition-colors group">
+<span class="material-symbols-outlined text-3xl text-primary mb-6 block group-hover:scale-110 transition-transform">contract</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-4">Civil</h3>
+<p class="font-body font-light text-on-surface-variant text-sm leading-relaxed mb-6">Contratos, responsabilidade civil e contencioso cível estratégico.</p>
+<a class="font-body font-light text-xs uppercase tracking-widest text-primary border-b border-transparent group-hover:border-primary transition-colors pb-1 inline-flex items-center" href="#">Explorar <span class="material-symbols-outlined text-[1rem] ml-1">arrow_forward</span></a>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 border border-outline-variant/20 hover:border-primary/50 transition-colors group">
+<span class="material-symbols-outlined text-3xl text-primary mb-6 block group-hover:scale-110 transition-transform">domain</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-4">Empresarial</h3>
+<p class="font-body font-light text-on-surface-variant text-sm leading-relaxed mb-6">Assessoria corporativa, blindagem patrimonial e fusões.</p>
+<a class="font-body font-light text-xs uppercase tracking-widest text-primary border-b border-transparent group-hover:border-primary transition-colors pb-1 inline-flex items-center" href="#">Explorar <span class="material-symbols-outlined text-[1rem] ml-1">arrow_forward</span></a>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 border border-outline-variant/20 hover:border-primary/50 transition-colors group">
+<span class="material-symbols-outlined text-3xl text-primary mb-6 block group-hover:scale-110 transition-transform">request_quote</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-4">Tributário</h3>
+<p class="font-body font-light text-on-surface-variant text-sm leading-relaxed mb-6">Planejamento fiscal e defesa em execuções fiscais complexas.</p>
+<a class="font-body font-light text-xs uppercase tracking-widest text-primary border-b border-transparent group-hover:border-primary transition-colors pb-1 inline-flex items-center" href="#">Explorar <span class="material-symbols-outlined text-[1rem] ml-1">arrow_forward</span></a>
+</div>
+<!-- Card 7 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 border border-outline-variant/20 hover:border-primary/50 transition-colors group">
+<span class="material-symbols-outlined text-3xl text-primary mb-6 block group-hover:scale-110 transition-transform">shopping_cart</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-4">Consumidor</h3>
+<p class="font-body font-light text-on-surface-variant text-sm leading-relaxed mb-6">Defesa de fornecedores e ações indenizatórias de alto valor.</p>
+<a class="font-body font-light text-xs uppercase tracking-widest text-primary border-b border-transparent group-hover:border-primary transition-colors pb-1 inline-flex items-center" href="#">Explorar <span class="material-symbols-outlined text-[1rem] ml-1">arrow_forward</span></a>
+</div>
+<!-- Card 8 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 border border-outline-variant/20 hover:border-primary/50 transition-colors group">
+<span class="material-symbols-outlined text-3xl text-primary mb-6 block group-hover:scale-110 transition-transform">elderly</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-4">Previdenciário</h3>
+<p class="font-body font-light text-on-surface-variant text-sm leading-relaxed mb-6">Planejamento de aposentadorias e revisões de benefícios.</p>
+<a class="font-body font-light text-xs uppercase tracking-widest text-primary border-b border-transparent group-hover:border-primary transition-colors pb-1 inline-flex items-center" href="#">Explorar <span class="material-symbols-outlined text-[1rem] ml-1">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Proof / Credentials -->
+<section class="py-24 bg-surface relative overflow-hidden">
+<div class="absolute inset-0 z-0 opacity-5">
+<img alt="Subtle texture of brushed steel, seamless pattern, light gray monochromatic." class="w-full h-full object-cover grayscale" data-alt="Subtle texture of brushed steel, seamless pattern, light gray monochromatic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVDO9kJvyng-7eEqwuQjjzHlcvD8wtynYVNeLwWvVBrxOW7GIscTY7aFMIbpm1Ak6HJO_lgym6d3458mpTxuLYqiPYyH9zTgHekvB_WIk2akkRDUiLe-XEpCbJ53MTyg25nmxhXQIHxB7uUYAP3soTtGiJMA8ewm5sFXudeMsU34BsR_a0LMD8aevSLOdjxhzc7VfW9na_y7ytRETIrELPVw3VwbkfIp0MRyeGx0fAaB6EzgClKEudpE5qIui6Sel5G4Isni1S5Q8"/>
+</div>
+<div class="max-w-screen-2xl mx-auto px-12 relative z-10">
+<div class="bg-surface-container-lowest rounded-xl p-12 border border-outline-variant/20 flex flex-col md:flex-row items-center justify-between gap-12 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)]">
+<div>
+<h3 class="font-headline font-light text-3xl text-on-surface mb-2">Certificações e Registro</h3>
+<p class="font-body font-light text-on-surface-variant">Regularidade e reconhecimento institucional atestados.</p>
+</div>
+<div class="flex items-center space-x-8">
+<div class="text-center">
+<span class="block font-headline font-light text-2xl text-primary mb-1">OAB/SC</span>
+<span class="block font-body font-light text-sm text-on-surface-variant font-mono">nº 7551</span>
+</div>
+<div class="w-px h-12 bg-outline-variant/30"></div>
+<div class="flex space-x-4">
+<!-- Placeholder for seals -->
+<div class="w-16 h-16 rounded-full bg-surface-container-low border border-outline-variant/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-2xl">workspace_premium</span>
+</div>
+<div class="w-16 h-16 rounded-full bg-surface-container-low border border-outline-variant/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-2xl">verified</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Team Section -->
+<section class="py-32 bg-inverse-surface text-inverse-on-surface" id="team">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<div class="lg:col-span-5 relative">
+<div class="aspect-[3/4] rounded-xl overflow-hidden grayscale">
+<img alt="Professional portrait of a distinguished male lawyer in a sharp dark suit, grey background, serious expression, high-end editorial lighting, black and white." class="w-full h-full object-cover" data-alt="Professional portrait of a distinguished male lawyer in a sharp dark suit, grey background, serious expression, high-end editorial lighting, black and white." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADEim57w-Owg_twW315aQNuKC9wGtbt7dEfAqpSUBRLcn0Fdbo7HnRPCo7t3tQ_yIlB3rPmyi-kWd1sfsDyiOeU5yrqUYAoOUHVUqN5BgkAvLk2BAAljol5GAMROIKzWKwkLyTCOvlVilnK1tFarImYRge18TwXE6qwsJctxcCEsUBy5wCOe-J-0qrscEDxYdk3p-rmnSEAtYEZyIEk97KfV_t3VimeKfQseK1gYRc_70hWAHRAxLMAcnIfxZlN066rqw7Sf8a_xY"/>
+</div>
+<!-- Decorative element -->
+<div class="absolute -bottom-6 -right-6 w-32 h-32 border-b border-r border-outline-variant/30 rounded-br-xl"></div>
+</div>
+<div class="lg:col-span-7">
+<h2 class="font-headline text-5xl font-light text-inverse-primary tracking-tight mb-2">Corpo Jurídico</h2>
+<p class="font-body font-light text-outline-variant uppercase tracking-widest text-sm mb-8 block">Excelência Institucional</p>
+<div class="space-y-6 font-body font-light text-lg leading-relaxed">
+<p>
+                            Com mais de uma década de dedicação exclusiva à advocacia de alta complexidade, nossa equipe consolidou-se como referência na defesa de interesses corporativos e individuais em Santa Catarina.
+                        </p>
+<p>
+                            Nossa abordagem não se baseia em teses genéricas, mas na construção artesanal de estratégias processuais. Formados pelas mais prestigiadas instituições, nossa atuação nos tribunais superiores é marcada por um rigor técnico implacável e discrição absoluta.
+                        </p>
+<p class="italic font-headline text-xl text-outline mt-8 border-l-2 border-primary pl-6">
+                            "A verdadeira defesa não apenas responde às acusações; ela redefine o campo de batalha processual."
+                        </p>
+</div>
+<button class="mt-12 bg-transparent text-inverse-primary px-8 py-3 rounded-xl font-body font-light text-sm uppercase tracking-wider border border-outline-variant/30 hover:bg-surface-container-highest/10 transition-colors inline-flex items-center">
+                        Conheça a Equipe <span class="material-symbols-outlined ml-2 text-lg">arrow_outward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- News/Insights -->
+<section class="py-32 bg-surface" id="insights">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="flex justify-between items-end mb-16 border-b border-outline-variant/20 pb-6">
+<div>
+<h2 class="font-headline font-light text-4xl text-on-surface tracking-tight mb-2">Últimas Notícias Jurídicas</h2>
+<p class="font-body font-light text-on-surface-variant">Análises e atualizações sobre o cenário legal brasileiro.</p>
+</div>
+<a class="hidden md:inline-flex font-body font-light text-sm uppercase tracking-widest text-primary border-b border-primary pb-1 hover:text-on-surface transition-colors" href="#">Ver Todas</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- News Item 1 -->
+<article class="group cursor-pointer">
+<div class="aspect-video bg-surface-container-low rounded-xl mb-6 overflow-hidden relative">
+<img alt="Close up of legal documents with a sleek silver pen on top, soft lighting, monochromatic." class="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-700" data-alt="Close up of legal documents with a sleek silver pen on top, soft lighting, monochromatic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAm01lVNpxQ4dplgUJDXYV2Dx361UVQVEkbm1XSy5DLj3JmuA8hmyDEX4skNyZZO4AovBTq-hsz7qoXCZC0e19WhaX63y3vA5ISSOwGDNxSpIQRR0bGiQlcnFUqNQprMbKcPEK40FWEHtZ2xP9LNKMxS78BIbmtqxaEE0t8D5iHBcvnpxMDSFjnMm62p5fZO8r9_QTiJTsThbftcQ5SJNz72B5FMaWHGjg04Zr7_40fmcHpLrT6ZKG2l4E9Mh9aso5VGJx-fUWKB0"/>
+</div>
+<span class="font-body font-light text-xs text-on-surface-variant uppercase tracking-widest mb-3 block">Empresarial • 12 Out 2023</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-3 group-hover:text-primary transition-colors line-clamp-2">Nova legislação de blindagem patrimonial: o que muda para os sócios.</h3>
+<p class="font-body font-light text-on-surface-variant text-sm line-clamp-3">Uma análise profunda sobre as recentes decisões do STJ a respeito da desconsideração da personalidade jurídica...</p>
+</article>
+<!-- News Item 2 -->
+<article class="group cursor-pointer">
+<div class="aspect-video bg-surface-container-low rounded-xl mb-6 overflow-hidden relative">
+<div class="w-full h-full bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-outline-variant">article</span>
+</div>
+</div>
+<span class="font-body font-light text-xs text-on-surface-variant uppercase tracking-widest mb-3 block">Trabalhista • 05 Out 2023</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-3 group-hover:text-primary transition-colors line-clamp-2">Reforma Trabalhista: Impactos nos acordos extrajudiciais homologados.</h3>
+<p class="font-body font-light text-on-surface-variant text-sm line-clamp-3">Como a jurisprudência vem tratando a quitação geral em acordos trabalhistas após as recentes alterações...</p>
+</article>
+<!-- News Item 3 -->
+<article class="group cursor-pointer">
+<div class="aspect-video bg-surface-container-low rounded-xl mb-6 overflow-hidden relative">
+<img alt="Abstract architectural geometric lines of a modern building facade in black and white." class="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-700" data-alt="Abstract architectural geometric lines of a modern building facade in black and white." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-rc-YczNTRZ3mJ8S2B-irYTywxOxNf78fAqSw9eVegjRLFrpJNE2HfSyzt2XedCzdF82Gq8Y12xHCq9Qxzp4HOXg66UoX8s9jwdt4sPhVUQwlweMXOjezvfrJuaxO2z7chrcOBBdQH14NNJsc1Ps8WOZ7WJvoZMNZHIbbmD1_uvQuFIKMYOOdJyGrDng7tYDE5Ps2qJ4RMb1Ea-3NJ4bL6JPwC7wwKY6sAreDzB9hu6Ji6PiCyWGW0keuX2IFEvmQqIudL3gcy4s"/>
+</div>
+<span class="font-body font-light text-xs text-on-surface-variant uppercase tracking-widest mb-3 block">Tributário • 28 Set 2023</span>
+<h3 class="font-headline font-light text-2xl text-on-surface mb-3 group-hover:text-primary transition-colors line-clamp-2">Tese do Século: Exclusão do ICMS da base de cálculo do PIS/COFINS.</h3>
+<p class="font-body font-light text-on-surface-variant text-sm line-clamp-3">Os próximos passos e as modulações de efeitos esperadas no STF para empresas de médio e grande porte...</p>
+</article>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-32 bg-surface-container-low relative">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+<!-- Contact Info -->
+<div class="flex flex-col justify-center">
+<h2 class="font-headline font-light text-5xl text-on-surface tracking-tight mb-8">Agende sua Consulta</h2>
+<p class="font-body font-light text-on-surface-variant text-lg mb-12 max-w-md">Nosso atendimento é pautado pela discrição e eficiência. Preencha o formulário ou utilize nossos canais diretos.</p>
+<div class="space-y-8">
+<div class="flex items-start">
+<span class="material-symbols-outlined text-primary mt-1 mr-4">location_on</span>
+<div>
+<h4 class="font-headline font-light text-xl text-on-surface mb-1">Endereço</h4>
+<p class="font-body font-light text-on-surface-variant">Rua Silvino Moreira Lima Sobrinho, nº 888<br/>Humaitá, Tubarão/SC</p>
+</div>
+</div>
+<div class="flex items-start">
+<span class="material-symbols-outlined text-primary mt-1 mr-4">phone</span>
+<div>
+<h4 class="font-headline font-light text-xl text-on-surface mb-1">Telefone</h4>
+<p class="font-body font-light text-on-surface-variant">+55 (48) 3600-0000</p>
+</div>
+</div>
+<div class="flex items-start">
+<span class="material-symbols-outlined text-primary mt-1 mr-4">mail</span>
+<div>
+<h4 class="font-headline font-light text-xl text-on-surface mb-1">E-mail</h4>
+<p class="font-body font-light text-on-surface-variant">contato@araujoadvocacia.com.br</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Contact Form -->
+<div class="bg-surface-container-lowest p-12 rounded-xl border border-outline-variant/20 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)]">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-body font-light text-sm text-on-surface-variant mb-2" for="name">Nome Completo</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/40 rounded-xl px-4 py-3 font-body font-light focus:ring-0 focus:border-primary transition-colors placeholder:text-outline-variant/50" id="name" placeholder="Seu nome" type="text"/>
+</div>
+<div>
+<label class="block font-body font-light text-sm text-on-surface-variant mb-2" for="phone">Telefone</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/40 rounded-xl px-4 py-3 font-body font-light focus:ring-0 focus:border-primary transition-colors placeholder:text-outline-variant/50" id="phone" placeholder="(00) 00000-0000" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block font-body font-light text-sm text-on-surface-variant mb-2" for="email">E-mail</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/40 rounded-xl px-4 py-3 font-body font-light focus:ring-0 focus:border-primary transition-colors placeholder:text-outline-variant/50" id="email" placeholder="seu@email.com" type="email"/>
+</div>
+<div>
+<label class="block font-body font-light text-sm text-on-surface-variant mb-2" for="message">Resumo do Caso (Opcional)</label>
+<textarea class="w-full bg-surface-container-lowest border border-outline-variant/40 rounded-xl px-4 py-3 font-body font-light focus:ring-0 focus:border-primary transition-colors placeholder:text-outline-variant/50 resize-none" id="message" placeholder="Descreva brevemente sua situação..." rows="4"></textarea>
+</div>
+<button class="w-full metallic-gradient text-on-surface px-8 py-4 rounded-xl font-body font-light tracking-wide border border-outline-variant/50 hover:opacity-90 transition-opacity" type="submit">
+                            Solicitar Contato
+                        </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full border-t border-[#5e5e5e]/10 bg-[#0c0f0f] text-[#5e5e5e] font-['Manrope'] text-[0.6875rem] uppercase tracking-[0.2em] font-light">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-10 w-full max-w-screen-2xl mx-auto">
+<div class="font-['Newsreader'] text-xl text-white normal-case tracking-normal mb-6 md:mb-0">
+                Araújo Advocacia
+            </div>
+<div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 mb-6 md:mb-0">
+<a class="text-[#5e5e5e] hover:text-[#E5E4E2] transition-colors opacity-80 hover:opacity-100 transition-opacity" href="#">Política de Privacidade</a>
+<a class="text-[#5e5e5e] hover:text-[#E5E4E2] transition-colors opacity-80 hover:opacity-100 transition-opacity" href="#">Termos de Serviço</a>
+<a class="text-[#5e5e5e] hover:text-[#E5E4E2] transition-colors opacity-80 hover:opacity-100 transition-opacity" href="#">Contato</a>
+</div>
+<div>
+                © 2024 Araújo Advocacia. Todos os direitos reservados.
+            </div>
+</div>
+</footer>
+</body></html>
